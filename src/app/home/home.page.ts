@@ -15,15 +15,17 @@ export class HomePage {
   public precoAlcool: GLfloat = 0;
 
   calcular() {
-    if(this.precoAlcool == 0 || this.precoAlcool == 0) {
+    var pG = this.precoGasolina
+    var pA = this.precoAlcool
+    if(pG == 0 || pA == 0) {
       this.resultado = "Preencha corretamente os campos!"
-    } else if(this.precoAlcool != 0 && this.precoAlcool != 0) {
-      if((this.precoAlcool / this.precoGasolina) >= 0.7) {
-        this.resultado = "Melhor utilizar gasolina!"
-      } else {
-        this.resultado = "Melhor utilizar álcool!"
+    } else if(pG != 0 && pA != 0) {
+        if((pA / pG) >= 0.7) {
+          this.resultado = "Melhor utilizar gasolina!"
+        } else {
+          this.resultado = "Melhor utilizar álcool!"
 
-      }
+        }
     }
   }
 }
