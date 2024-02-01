@@ -1,3 +1,7 @@
+App mobile feito com Ionic Framework utilizando sccs, js com angular, html.
+
+# Para Rodar:
+
 1. Baixe a pasta, node e no cmd digite: npm install -g @ionic/cli;
 2. Após fazer os passos anteriores, localize onde está a pasta dos arquivos baixados e então abra o cmd digitando cd + o caminho da pasta;
 3. Digite ionic serve e abra o app no seu localhost, clique em inspecionar pagina e coloque uma resolução de um celular e teste o aplicativo.
